@@ -1,0 +1,7 @@
+import matplotlib.pyplot as plt 
+labels = ["Sugar", "Cholesterol", "Hemoglobin"] 
+values = [140.5, 210.3, 13.2] 
+plt.bar(labels, values, color=['blue', 'red', 'green']) 
+plt.ylabel("Average Levels") 
+plt.title("Health Monitoring Statistics") 
+plt.show()
